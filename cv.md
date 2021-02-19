@@ -1,14 +1,14 @@
 ##**Darya Nalivayko**
-Contacts:
+####Contacts:
 
  * LinkedIn: https://www.linkedin.com/in/dasha-nalivayko-831ba1179/;
  * E-mail: dashanalivayko@gmail.com;
  * Tg: @dnalivayko;
 
-Summary
+####Summary
 I am an curious person, so I **quick learner**. Appreciate a friendly atmosphere and care about the feelings of others. I am very determined and stubborn in achieving my goals. I love to learn everything new, and I very excited __*when I have some problems and have to find interesting solutions for them.*__
 
-Skills
+####Skills
 **HTML, CSS, SCSS, Bootstrap, JavaScript, React**
 
 * Calculator without react: https://github.com/FE38-Front-End/DashaNalivayko/tree/calculator/calculator,
@@ -16,7 +16,7 @@ Skills
 
 
 
-Education:
+####Education:
 
  * Finish TeachMeSkills course (Frontend), starting react course by RS, 2021
  * Graduated Belarus State Economic University, International Marketing, 2019
