@@ -1,21 +1,38 @@
-section {
-    width: 1000px;
-    color: rgb(39, 52, 131);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+}
+.cv {
+    display: flex;
 }
 
-h1 {
-    color: black;
+.aside {
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 55, 236);
+    padding-bottom: 300px;
 }
 
-h4 {
-    color: black;
+.contacts {
+    padding: 30px;
 }
+
 
 a {
     text-decoration: none;
-    color: rgb(30, 56, 221);
+    color: white;
 }
 
-p {
-    font-size: 14px;
+
+img {
+    height: 430px;
+    width: auto;
+}
+
+main {
+    text-align: center;
 }
