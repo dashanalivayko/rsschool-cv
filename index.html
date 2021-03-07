@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 </head>
 
 <body>
-    <article class="cv">
+    <main class="cv">
         <aside class="aside">
             <img class="photo" src="./img/photo.jpg" alt="photo">
             <section class="contacts">
                 <h4>Contacts:</h4>
                 <ul class="social-networks">
-                    <li class="icons"><a href="https://www.linkedin.com/in/dasha-nalivayko-831ba1179/"><img src="./img/linkedin.png" alt="linkedIn"></a></li>
-                    <li class="icons"><a href="mailto:dashanalivayko@gmail.com"><img src="./img/gmail.png" alt="gmail"></a></li>
-                    <li class="icons"><a href="https://telegram.me/dnalivayko"><img src="./img/telegram.png" alt="tg"></a></li>
-                    <li class="icons"><a href="https://www.instagram.com/dasha_nalivayko/"><img src="./img/instagram.png" alt="inst"></a></li>
-                    <li class="icons"><a href="https://github.com/dashanalivayko"><img src="./img/github.png" alt="github"></a></li>
+                    <li class="icons"><a href="https://www.linkedin.com/in/dasha-nalivayko-831ba1179/" target="_blank"><img src="./img/linkedin.png" alt="linkedIn"></a></li>
+                    <li class="icons"><a href="mailto:dashanalivayko@gmail.com" target="_blank"><img src="./img/gmail.png" alt="gmail"></a></li>
+                    <li class="icons"><a href="https://telegram.me/dnalivayko" target="_blank"><img src="./img/telegram.png" alt="tg"></a></li>
+                    <li class="icons"><a href="https://www.instagram.com/dasha_nalivayko/" target="_blank"><img src="./img/instagram.png" alt="inst"></a></li>
+                    <li class="icons"><a href="tel:+375291829101"><img src="./img/phone.png" alt="phone"></a></li>
                 </ul>
             </section>
             <section class="skills">
@@ -33,12 +33,9 @@
                     <li>JavaScript</li>  
                     <li>React</li> 
                 </ul>
-                <ul>
-                    <li><a href="https://github.com/FE38-Front-End/DashaNalivayko/tree/calculator/calculator">Calculator without react</a><img class="click-icon" src="./img/cliick.png" alt="click"></li>
-                    <li><a href="https://github.com/dashanalivayko/Bremino-Group/tree/develop">Acting Landing page</a><img class="click-icon" src="./img/cliick.png" alt="click"></li>
-                </ul>
             </section>
             <section class="lang">
+                <h4>Languages:</h4>
                 <ul>
                     <li class="eng">English
                         <div class="scale">
@@ -67,7 +64,7 @@
             
         </aside>
         
-        <main class="info">
+        <article class="info">
             <header>
                 <h2>Darya Nalivayko</h2>
                 <h4>Frontend developer</h4>
@@ -90,7 +87,29 @@
                     <li>Courses by Goethe-Institut, German, 2015</li>
                 </ul>
             </section>
-        </main>
-    </article>
+
+            <section class="portfolio">
+                <h4>Portfolio:</h4>
+                <h6>more on my <a href="https://github.com/dashanalivayko" target="_blank"><img src="./img/github.png" alt="github"></a></h6>
+                <div class="portfolio-grid">
+                    <div class="landing">
+                        <a href="https://dashanalivayko.github.io/Bremino-Group/dist/" target="_blank">
+                            <div class="hover">Landing page<p>HTML, SCSS, JavaScript</p></div>
+                        </a>
+                    </div>
+                    <div class="calculator">
+                        <a href="https://dashanalivayko.github.io/DashaNalivayko/calculator/" target="_blank">
+                            <div class="hover">Calculator<p>HTML, SCSS, JavaScript</p></div>
+                        </a>
+                    </div>
+                    <div class="tic-tac-toe">  
+                        <a href="https://github.com/dashanalivayko/Bremino-Group/tree/develop" target="_blank">
+                            <div class="hover">Tic Tac Toe<p>HTML, React</p></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
