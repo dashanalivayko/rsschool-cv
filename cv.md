@@ -36,7 +36,7 @@ __Streamline course__
 
 ## Relevant Experience
 ### Hello Entertainment Pte. Ltd 
-<time> February 2021 - January 2023 </time>
+#### <time> February 2021 - January 2023 </time>
 
 Game startup. Creating a SPA from scratch, working on creating a video-platform with online games. Creating landing pages.
 Tasks:
@@ -48,10 +48,10 @@ Tasks:
 https://www.gethello.net/
 
 ### Bremino Group, LLC 
-<time> July 2020 - July 2021 </time>
+#### <time> July 2020 - July 2021 </time>
 
 Junior Frontend developer
-+Tasks:
++ Tasks:
 - Creating SPA for customers;
 - Creating web-site for company (React/Typescript);
 - Creating landing pages for services (React/Typescript);
